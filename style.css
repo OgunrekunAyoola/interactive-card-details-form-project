@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.top-section picture{
+    width: 100%;
+} 
+picture img{
+    height: 180px;
+    width: 100%;
+}
+.top-section img{
+
+}
+.form{
+    margin-top: -220px;
+    margin-left: 20px;
+}
+.card{
+    margin-top: -30px;
+}
+.img1{
+    height: 200px;
+    width: 250px;
+    top: -180px;
+    left: 100px;
+    position: relative;
+    object-fit: contain;
+}
+.img2{
+    height: 200px;
+    width: 250px;
+    top: 50px;
+    left: 40px;
+    object-fit: contain;
+    position: absolute;
+}
+.card-number-display,.cardholder-display,
+.expiry-month-display,.expiry-divider-display,
+.expiry-year-display,.cvc-display{
+    position: relative;
+    color: white;
+    font-family: "Space Grotesk";
+}
+.card-number-display{
+    top: -200px;
+    left: 50px;
+    font-size: 18px;
+}
+.cardholder-display{
+    top: -190px;
+    font-size: 10px;
+    left: 50px;
+}
+.expiry-month-display{
+    top: -205px;
+    left: 220px;
+    font-size: 10px;
+}
+.expiry-divider-display{
+    top: -218px;
+    left: 235px;
+    font-size: 10px;
+}
+.expiry-year-display{
+    top: -230px;
+    left: 240px;
+    font-size: 10px;
+}
+.cvc-display{
+     top: -367px;
+    left: 290px;
+    font-size: 10px;
+}
+.card-logo{
+    position: relative;
+    top: -347px;
+    left: 50px;
+}
+.card-logo img{
+    height: 25px;
+}
+
+input{
+    padding-left: 10px;
+    font-family: "Space Grotesk";
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: hsl(270, 3%, 87%);
+}
+label{
+    font-family: "Space Grotesk";
+    font-size: 11px;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+.card-holder-name{
+     display: flex;
+    flex-direction: column;
+}
+.card-holder-name input{
+    width: 77%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#demo2{
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+    font-family: "Space Grotesk";
+    margin-left: 2px;
+    color: hsl(0, 100%, 66%);
+}
+.card-number{
+    display: flex;
+    flex-direction: column;
+}
+.card-number input{
+    margin-top: 10px;
+    width: 77%;
+    margin-bottom: 20px;
+}
+#demo{
+    margin-left: 2px;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+    font-family: "Space Grotesk";
+    color: hsl(0, 100%, 66%);
+}
+.exp-date{
+    display: flex;
+}
+.expiry-month{
+    display: flex;
+    flex-direction: column;
+
+}
+.mm {
+    width: 50px;
+    margin-top: 10px;
+}
+#demo3{
+    font-size: 8px;
+    margin-top: 3px;
+    color: hsl(0, 100%, 66%);
+}
+
+
+
+
+.expiry-year{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.yy{
+    margin-top: 23px;
+    position: absolute;
+    margin-right: 100px;
+    width: 50px;
+}
+#demo4{
+    font-size: 8px;
+    margin-top: 55px;
+    color: hsl(0, 100%, 66%);
+}
+
+.cvc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-top: -70px;
+}
+.cvc input{
+    width: 100px;
+    margin-top: 10px;
+}
+#demo5{
+    font-size: 8px;
+    color: hsl(0, 100%, 66%);
+    margin-top: 3px;
+}
+
+button{
+    color: white;
+    font-family: "Space Grotesk";
+    letter-spacing: 2px;
+    margin-top: 30px;
+    width: 80%;
+    height: 45px;
+    background-color:  hsl(278, 68%, 11%);
+    border: none;
+    border-radius: 5px;
+    margin-left: px;
+}
+
+@media only screen and (min-width: 800px) {
+   .form{
+    margin-left: 60%;
+    margin-top: -790px;
+   }
+
+   .img1{
+    top:-340px;
+    left: 200px;
+    position: relative
+   }
+   .img2{
+    position:relative;
+    left: -120px;
+    top: -500px;
+   }
+   .top-section picture{
+    height: 100%;
+   } 
+   
+   picture img{
+    height: 100%;
+    width: 350px;
+   }
+   .card-holder-name label{
+    margin-bottom: -8px;
+   }
+   .card-holder-name input{
+    height: 30px;
+    width: 220px;
+   }
+   .card-number label{
+    margin-bottom: -8px;
+   }
+   .card-number input{
+    height: 30px;
+    width: 220px;
+   }
+   .expiry-month label{
+    margin-bottom: -5px;
+   }
+   .expiry-month input{
+    height: 30px;
+   }
+   .expiry-year input{
+    margin-top: 18px;
+    height: 30px;
+   }
+   .cvc{
+    margin-left: 160px;
+   }
+   .cvc label{
+    margin-bottom: -6px;
+   }
+   .cvc input{
+    width: 62px;
+    height: 30px;
+   }
+   button{
+    width: 235px;
+   }
+   .card-number-display{
+    top: -600px;
+    left: 150px;
+   }
+   .cardholder-display{
+    top: -585px;
+    left: 150px;
+   }
+.expiry-month-display{
+    top: -597px;
+    left: 310px;
+}
+.expiry-divider-display{
+    top: -610px;
+    left: 325px;
+}
+.expiry-year-display{
+    top: -622px;
+    left: 330px;
+}
+.cvc-display{
+    top: -525px;
+    left: 390px;
+}
+.card-logo{
+    top: -740px;
+    left: 150px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
